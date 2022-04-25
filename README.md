@@ -13,7 +13,7 @@ Vamos a crear una aplicación web que nos ayude a controlar nuestra colección d
 * La página /listajuegos mostrará una tabla generada dinámicamente a partir de los datos del fichero msx.json y la búsqueda que se haya realizado.
 * La tabla tendrá tres columnas: en la primera aparecerá el nombre, en la segunda el desarrollador y en la tercera habrá un enlace con la palabra “Detalle” que me llevará a la página del juego con la ruta /juego/<identificador> o /juego?id=xxxxxxxxxx.
 * Como ves, estamos volviendo a hacer el patrón de diseño : Lista - detalle. La lista está en la página /listajuegos y el detalle está en la página /juego/<identificador> o /juego?id=xxxxxxx donde aparecerán todos los datos del juego que tenga ese identificador. Si el identificador no existe devolverá un 404. Tendrá un enlace que me devuelve a la página /juegos.
-* La aplicación hay que desplegarla en heroku.
+* La aplicación hay que desplegarla en heroku. (Debido a la problemática en heroku con github, lo haremos desde [scalingo](https://scalingo.com/).
 
 ## Mejoras
 
