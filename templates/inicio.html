@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}HOME{% endblock %}
+{% block contenido %}
+<div class="inner">
+    <h1>¡¡BIENVENIDO/A!!<span><br />
+    ¿Estas preparado para lo que aquí te aguarda?<br/>
+    Incluso en el lugar más oscuro,la luz más pequeña es lo que más brilla. <br>
+    Aquí encontrarás una infinidad de juegos con los que comenzar grandes aventuras</span></h1>
+    <span><p>¡Allé vamos!</p></span>
+    <a href="/juegos"><img src="{{url_for('static', filename='images/mando.png')}}" alt="mando"/></a>
+</div>
+{% endblock %}
