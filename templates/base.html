@@ -3,18 +3,14 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>{% block title %}{% endblock %}</title>
-		<link rel="stylesheet" href="{{url_for('static', filename = 'assets/css/main.css')}}" />
+		<link rel="stylesheet" href="/static/assets/css/main.css" />
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<nav id="menu">
-						<a href="/">Home</a>
-						<a href="/juegos">Games</a>
-					</nav>
-					<a href="/" class="logotipo"><img src="/static/images/msx.jpg" alt="logo" /></a>
+					<a href="/" class="logotipo"><img src="/static/images/msx.png" alt="logo" /></a>
 					<h1><strong>Flask with Python</strong>, a way to generate<br />
 					html files.<br /></h1>
 					<ul class="icons">
@@ -30,11 +26,11 @@
 
 
 		<!-- Scripts -->
-			<script src="{{url_for('static', filename = 'assets/js/jquery.min.js')}}"></script>
-			<script src="{{url_for('static', filename = 'assets/js/jquery.poptrox.min.js')}}"></script>
-			<script src="{{url_for('static', filename = 'assets/js/browser.min.js')}}"></script>
-			<script src="{{url_for('static', filename = 'assets/js/breakpoints.min.js')}}"></script>
-			<script src="{{url_for('static', filename = 'assets/js/util.js')}}"></script>
-			<script src="{{url_for('static', filename = 'assets/js/main.js')}}"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 	</body>
 </html>
