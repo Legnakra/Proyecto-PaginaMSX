@@ -1,0 +1,452 @@
+[
+    {
+      "id": 1,
+      "nombre": "007: Licence to Kill",
+      "sistema": "MSX",
+      "distribuidor": "Domark Software",
+      "desarrollador": "Quixel",
+      "categoria": "Racing",
+      "año": 1989
+    },
+    {
+      "id": 2,
+      "nombre": "10th Frame",
+      "sistema": "MSX",
+      "distribuidor": "U.S. Gold Ltd.",
+      "desarrollador": "Access Software",
+      "categoria": "Sports",
+      "año": 1986
+    },
+    {
+      "id": 3,
+      "nombre": "10-Yard Fight",
+      "sistema": "MSX",
+      "distribuidor": "Irem",
+      "desarrollador": "Irem",
+      "categoria": "Sports",
+      "año": 1986
+    },
+    {
+      "id": 4,
+      "nombre": 1942,
+      "sistema": "MSX",
+      "distribuidor": "Zemina",
+      "desarrollador": "Capcom Co., Ltd.",
+      "categoria": "Shooter",
+      "año": 1987
+    },
+    {
+      "id": 5,
+      "nombre": "4x4 Off-Road Racing",
+      "sistema": "MSX",
+      "distribuidor": "U.S. Gold Ltd.",
+      "desarrollador": "Epyx, Inc., Inc.",
+      "categoria": "Sports",
+      "año": 1988
+    },
+    {
+      "id": 6,
+      "nombre": "A View to a Kill",
+      "sistema": "MSX",
+      "distribuidor": "Domark Software",
+      "desarrollador": "Softstone Ltd",
+      "categoria": "Adventure",
+      "año": 1985
+    },
+    {
+      "id": 7,
+      "nombre": "A.E.",
+      "sistema": "MSX",
+      "distribuidor": "Toshiba-EMI Ltd.",
+      "desarrollador": "Programmers-3",
+      "categoria": "Shooter",
+      "año": 1984
+    },
+    {
+      "id": 8,
+      "nombre": "A.M.C.: Astro Marine Corps",
+      "sistema": "MSX",
+      "distribuidor": "Dinamic Software",
+      "desarrollador": "Creepsoft",
+      "categoria": "Shooter",
+      "año": 1989
+    },
+    {
+      "id": 9,
+      "nombre": "Aaargh",
+      "sistema": "MSX",
+      "distribuidor": "Melbourne House",
+      "desarrollador": "Binary Design",
+      "categoria": "Action",
+      "año": 1989
+    },
+    {
+      "id": 10,
+      "nombre": "Abadía del Crimen",
+      "sistema": "MSX",
+      "distribuidor": "MCM Software",
+      "desarrollador": "Opera Soft",
+      "categoria": "Adventure",
+      "año": 1987
+    },
+    {
+      "id": 11,
+      "nombre": "Abracadabra",
+      "sistema": "MSX",
+      "distribuidor": "Proein S.L.",
+      "desarrollador": "Odisea Software",
+      "categoria": "Adventure",
+      "año": 1988
+    },
+    {
+      "id": 12,
+      "nombre": "Abu Simbel Profanation",
+      "sistema": "MSX",
+      "distribuidor": "Dinamic Software",
+      "desarrollador": "Dinamic Software",
+      "categoria": "Adventure",
+      "año": 1985
+    },
+    {
+      "id": 13,
+      "nombre": "Ace of Aces",
+      "sistema": "MSX",
+      "distribuidor": "U.S. Gold Ltd.",
+      "desarrollador": "Artech Digital Productions",
+      "categoria": "Simulation",
+      "año": 1986
+    },
+    {
+      "id": 14,
+      "nombre": "Acrojet",
+      "sistema": "MSX",
+      "distribuidor": "SystemSoft",
+      "desarrollador": "MicroProse Ltd.",
+      "categoria": "Simulation",
+      "año": 1988
+    },
+    {
+      "id": 15,
+      "nombre": "Activision Decathlon",
+      "sistema": "MSX",
+      "distribuidor": "Pony Canyon",
+      "desarrollador": "Activision",
+      "categoria": "Sports",
+      "año": 1984
+    },
+    {
+      "id": 16,
+      "nombre": "Adven'chuta",
+      "sistema": "MSX",
+      "distribuidor": "MIA",
+      "desarrollador": "MIA",
+      "categoria": "Adventure",
+      "año": 1983
+    },
+    {
+      "id": 17,
+      "nombre": "African Trail Simulator",
+      "sistema": "MSX",
+      "distribuidor": "Positive",
+      "desarrollador": "Crom Software",
+      "categoria": "Racing",
+      "año": 1990
+    },
+    {
+      "id": 18,
+      "nombre": "After Burner",
+      "sistema": "MSX",
+      "distribuidor": "Activision",
+      "desarrollador": "Sega",
+      "categoria": "Action",
+      "año": 1988
+    },
+    {
+      "id": 19,
+      "nombre": "After the War",
+      "sistema": "MSX",
+      "distribuidor": "Dinamic Software",
+      "desarrollador": "Dinamic Software",
+      "categoria": "Action",
+      "año": 1989
+    },
+    {
+      "id": 20,
+      "nombre": "Afteroids",
+      "sistema": "MSX",
+      "distribuidor": "Zigurat",
+      "desarrollador": "Made in Spain",
+      "categoria": "Shooter",
+      "año": 1988
+    },
+    {
+      "id": 21,
+      "nombre": "Akanbe Dragon",
+      "sistema": "MSX",
+      "distribuidor": "Winky Soft",
+      "desarrollador": "Winky Soft",
+      "categoria": "Strategy",
+      "año": 1988
+    },
+    {
+      "id": 22,
+      "nombre": "Albatross",
+      "sistema": "MSX",
+      "distribuidor": "Telenet Japan",
+      "desarrollador": "Telenet Japan",
+      "categoria": "Sports",
+      "año": 1986
+    },
+    {
+      "id": 23,
+      "nombre": "Alcazar: The Forgotten Fortress",
+      "sistema": "MSX",
+      "distribuidor": "Activision",
+      "desarrollador": "Activision",
+      "categoria": "Puzzle",
+      "año": 1985
+    },
+    {
+      "id": 24,
+      "nombre": "Ale Hop",
+      "sistema": "MSX",
+      "distribuidor": "Topo Soft",
+      "desarrollador": "Topo Soft",
+      "categoria": "Action",
+      "año": 1988
+    },
+    {
+      "id": 25,
+      "nombre": "Aleste 2",
+      "sistema": "MSX",
+      "distribuidor": "Compile",
+      "desarrollador": "Compile",
+      "categoria": "Shooter",
+      "año": 1989
+    },
+    {
+      "id": 26,
+      "nombre": "Aleste Gaiden",
+      "sistema": "MSX",
+      "distribuidor": "Compile",
+      "desarrollador": "Compile",
+      "categoria": "Shooter",
+      "año": 1989
+    },
+    {
+      "id": 27,
+      "nombre": "Alibaba and 40 Thieves",
+      "sistema": "MSX",
+      "distribuidor": "ICM",
+      "desarrollador": "ICM",
+      "categoria": "Action",
+      "año": 1984
+    },
+    {
+      "id": 28,
+      "nombre": "Alien 8",
+      "sistema": "MSX",
+      "distribuidor": "Nippon Dexter",
+      "desarrollador": "Ashby Computers and Graphics",
+      "categoria": "Puzzle",
+      "año": 1987
+    },
+    {
+      "id": 29,
+      "nombre": "Alien Syndrome",
+      "sistema": "MSX",
+      "distribuidor": "Dro Soft",
+      "desarrollador": "Sega",
+      "categoria": "Shooter",
+      "año": 1988
+    },
+    {
+      "id": 30,
+      "nombre": "Aliens",
+      "sistema": "MSX",
+      "distribuidor": "Electric Dreams Software",
+      "desarrollador": "Software Studios",
+      "categoria": "Action",
+      "año": 1987
+    },
+    {
+      "id": 31,
+      "nombre": "Aliens",
+      "sistema": "MSX",
+      "distribuidor": "Square Co., Ltd.",
+      "desarrollador": "Square Co., Ltd.",
+      "categoria": "Shooter,",
+      "año": 1987
+    },
+    {
+      "id": 32,
+      "nombre": "Altered Beast",
+      "sistema": "MSX",
+      "distribuidor": "Activision",
+      "desarrollador": "Sega",
+      "categoria": "Action",
+      "año": 1988
+    },
+    {
+      "id": 33,
+      "nombre": "Amaurote",
+      "sistema": "MSX",
+      "distribuidor": "Mastertronic",
+      "desarrollador": "Binary Design",
+      "categoria": "Action",
+      "año": 1987
+    },
+    {
+      "id": 34,
+      "nombre": "Amazon",
+      "sistema": "MSX",
+      "distribuidor": "Idealogic",
+      "desarrollador": "Telarium",
+      "categoria": "Puzzle",
+      "año": 1987
+    },
+    {
+      "id": 35,
+      "nombre": "American Truck",
+      "sistema": "MSX",
+      "distribuidor": "Telenet Japan",
+      "desarrollador": "Telenet Japan",
+      "categoria": "Racing",
+      "año": 1985
+    },
+    {
+      "id": 36,
+      "nombre": "Angel Nieto Pole 500",
+      "sistema": "MSX",
+      "distribuidor": "Opera Soft",
+      "desarrollador": "Opera Soft",
+      "categoria": "Sports",
+      "año": 1990
+    },
+    {
+      "id": 37,
+      "nombre": "Angleball",
+      "sistema": "MSX",
+      "distribuidor": "Mastertronic",
+      "desarrollador": "Mastertronic",
+      "categoria": "Sports",
+      "año": 1987
+    },
+    {
+      "id": 38,
+      "nombre": "Antarctic Adventure",
+      "sistema": "MSX",
+      "distribuidor": "Konami",
+      "desarrollador": "Konami",
+      "categoria": "Action",
+      "año": 1983
+    },
+    {
+      "id": 39,
+      "nombre": "Aquattack",
+      "sistema": "MSX",
+      "distribuidor": "Toshiba-EMI Ltd.",
+      "desarrollador": "Interphase Technologies",
+      "categoria": "Shooter",
+      "año": 1984
+    },
+    {
+      "id": 40,
+      "nombre": "Archers",
+      "sistema": "MSX",
+      "distribuidor": "Mosaic Publishing",
+      "desarrollador": "Level 9 Computing",
+      "categoria": "Adventure",
+      "año": 1986
+    },
+    {
+      "id": 41,
+      "nombre": "Arcus",
+      "sistema": "MSX",
+      "distribuidor": "Wolf Team",
+      "desarrollador": "Wolf Team",
+      "categoria": "Role-Playing",
+      "año": 1988
+    },
+    {
+      "id": 42,
+      "nombre": "Arcus II: Silent Symphony",
+      "sistema": "MSX",
+      "distribuidor": "Wolf Team",
+      "desarrollador": "Wolf Team",
+      "categoria": "Role-Playing",
+      "año": 1989
+    },
+    {
+      "id": 43,
+      "nombre": "Arkanoid",
+      "sistema": "MSX",
+      "distribuidor": "Taito Corporation",
+      "desarrollador": "Taito Corporation",
+      "categoria": "Arcade",
+      "año": 1987
+    },
+    {
+      "id": 44,
+      "nombre": "Arkanoid - Revenge of DOH",
+      "sistema": "MSX",
+      "distribuidor": "Nidecom Soft",
+      "desarrollador": "Taito Corporation",
+      "categoria": "Arcade",
+      "año": 1988
+    },
+    {
+      "id": 45,
+      "nombre": "Army Moves",
+      "sistema": "MSX",
+      "distribuidor": "Dinamic Software",
+      "desarrollador": "Dinamic Software",
+      "categoria": "Shooter",
+      "año": 1987
+    },
+    {
+      "id": 46,
+      "nombre": "Astro Robo Sasa",
+      "sistema": "MSX",
+      "distribuidor": "ASCII Corporation",
+      "desarrollador": "Mass Tael",
+      "categoria": "Shooter",
+      "año": 1984
+    },
+    {
+      "id": 47,
+      "nombre": "A-Team",
+      "sistema": "MSX",
+      "distribuidor": "Zafiro",
+      "desarrollador": "Zafiro",
+      "categoria": "Shooter",
+      "año": 1988
+    },
+    {
+      "id": 48,
+      "nombre": "Athletic Land",
+      "sistema": "MSX",
+      "distribuidor": "Konami",
+      "desarrollador": "Konami",
+      "categoria": "Action",
+      "año": 1984
+    },
+    {
+      "id": 49,
+      "nombre": "Attack of the Killer Tomatoes",
+      "sistema": "MSX",
+      "distribuidor": "Global Software",
+      "desarrollador": "Global Software",
+      "categoria": "Puzzle",
+      "año": 1986
+    },
+    {
+      "id": 50,
+      "nombre": "Auf Wiedersehen Monty",
+      "sistema": "MSX",
+      "distribuidor": "Gremlin Graphics",
+      "desarrollador": "Gremlin Graphics",
+      "categoria": "Puzzle",
+      "año": 1987
+    }
+]
