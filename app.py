@@ -17,6 +17,6 @@ with open("MSX.json") as fichero:
 #Definir ruta de inicio
 @app.route('/',methods=["GET","POST"])
 def inicio():
-	return render_template("inicio.html")		
+	return render_template("inicio.html")
 
 app.run('0.0.0.0', debug=False)

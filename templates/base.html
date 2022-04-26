@@ -1,36 +1,39 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="utf-8" />
 		<title>{% block title %}{% endblock %}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/static/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="/" class="logotipo"><img src="/static/images/msx.png" alt="logo" /></a>
-					<h1><strong>Flask with Python</strong>, a way to generate<br />
-					html files.<br /></h1>
-					<ul class="icons">
-						<li><a href="https://twitter.com/Marixusa" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/Legnakra" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					</ul>
-				</div>
-			</header>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>MSX</strong><span>El camino más lógico hacia la informática</span></a>
+					<!-- Menu -->	
+						<nav>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Juegos</a></li>
+						</nav>
+					</header>
 
-			<!-- Blog posts -->
-			{% block content %}{% endblock %}
-
-
+				<!-- Blog posts -->
+				<section id="banner"></section>
+				{% block content %}{% endblock %}
+				</section>	
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
