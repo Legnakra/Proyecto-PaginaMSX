@@ -8,32 +8,28 @@
 		<noscript><link rel="stylesheet" href="/static/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<div id="wrapper">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<!-- Header -->
+			<header id="header">
+				<a href="/" class="logo"><strong>MSX</strong><span>El camino más lógico hacia la informática</span></a>
+		<!-- Menu -->	
+				<nav>
+					<li><a href="/">Home</a></li>
+					<li><a href="/juegos">Juegos</a></li>
+				</nav>
+			</header>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>MSX</strong><span>El camino más lógico hacia la informática</span></a>
-					<!-- Menu -->	
-						<nav>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Juegos</a></li>
-						</nav>
-					</header>
-
-				<!-- Blog posts -->
-				<section id="banner"></section>
-				{% block content %}{% endblock %}
-				</section>	
+		<!-- Blog posts -->
+		{% block content %} {% endblock %}
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/jquery.scrollex.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+		</div>
 	</body>
 </html>
