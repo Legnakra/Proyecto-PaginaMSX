@@ -99,8 +99,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
-	}
+  		background-image: url("https://i.redd.it/6swev6t931t51.png");
+  		background-size: cover;
+  		background-repeat: no-repeat;
+  		background-position: center center;
+  		background-attachment: fixed;
+}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
