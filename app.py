@@ -19,5 +19,22 @@ with open("MSX.json") as fichero:
 def inicio():
     return render_template("inicio.html")
 
+#Definir ruta de /juegos
+@app.route('/listajuegos', methods=["POST"])
+def listajuegos():
+	cadena=request.form.get("name")
+	juegos=[]
+	desarrolladores=[]
+	identificadores=[]
+	for juego in games:
+		if cadena in (str(juego["nombre"])):
+			juegos.append(str(juego["nombre"]))
+			desarrolladores.append(str(juego["desarrollador"]))
+			identificadores.append(str(juego["id"]))
+			filtro=zip(juegos,desarrolladores,identificadores)	
+		elif cadena == "":
+			juegos.append(juego["nombre"])
+	return render_template("juegos1.html",juegos=filtro)
+
 
 app.run('0.0.0.0', debug=False)
