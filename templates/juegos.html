@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}Juegos{% endblock %}
+{% block content %}
+<section id="two">
+    <div class="inner">
+        <header class="major">
+            <h1>Buscador</h1>
+        </header>
+        <div class="content">
+           <div class="row">
+              <div class="col-md-10 offset-md-1">
+                 <form id="request" class="main_form" action="/juegos" method="POST">
+                    <div class="row">
+                       <div class="col-md-12 ">
+                          <input class="contactus" placeholder="Nombre del juego" type="text" name="name" value="{{nombre}}"> 
+                            <div id="blanco">
+                            Categoría: <select name="category">
+                                {% for i in categorias %}
+                                    {% if i == categoria %}
+                                        <option value="{{i}}" selected>{{i}}</option>
+                                    {% else %}
+                                        <option value="{{i}}">{{i}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                                </select>
+                            </div>
+                       </div>
+                       <div class="col-md-12">
+                          <button class="send_btn">Buscar</button>
+                       </div>
+                    </div>
+                 </form>
+              </div>
+           </div>
+        </div>
+    </section>
+    {% if juegos %}
+    <section id="two">
+        <div class="inner">
+            <header class="major">
+                <h2>Coincidencias</h2>
+            </header>
+                <table class="tg">
+                    <tr>
+                        <th class="tg-hst0">Nombre</th>
+                        <th class="tg-hst0">Desarrollador</th>
+                        <th class="tg-hst0">Enlace</th>
+                    </tr>
+                        {% for i in juegos %}
+                            {% if (nombre == "" or (i.nombre|string).startswith(nombre)) and (categoria == "" or i.categoria == categoria) %}
+                                <tr>
+                                    <th class="tg-rkfb">{{i.nombre}}</th>
+                                    <th class="tg-rkfb">{{i.desarrollador}}</th>
+                                    <th class="tg-rkfb"><a href="/juego/{{i.id}}">Detalle</a></th>
+                                </tr>
+                            {% endif %}
+                        {% endfor %}
+                </table>
+        </div>
+    </section>
+    {% elif nombre %}
+        <section class="about">
+            <div class="container">
+                <div class="row d_flex">
+                    <div class="col-md-5">
+                        <div class="titlepage">
+                            <h2>Sin coincidencias.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+{% endblock %}

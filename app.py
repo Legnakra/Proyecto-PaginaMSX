@@ -19,7 +19,6 @@ with open("MSX.json") as fichero:
 def inicio():
 	return render_template("inicio.html")
 
-
 #Definir ruta juegos
 @app.route('/juegos',methods=["GET","POST"])
 def juegos():
