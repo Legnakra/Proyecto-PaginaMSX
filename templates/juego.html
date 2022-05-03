@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{juego.nombre}}{% endblock %}
+{% block content %}
+<section id="two">
+    <div class="inner">
+        <header class="major">
+            <h2>{{juego.nombre}}</h2>
+        </header>        
+        <section id="two">
+            <div class="inner">
+                <h3><strong>Identificador:</strong> {{juego.id}}</h3>
+                {% if juego.sistema %}
+                    <h3><strong>Sistema:</strong> {{juego.sistema}}</h3>
+                {% endif %}
+                {% if juego.distribuidor %}
+                    <h3><strong>Distribuidor:</strong> {{juego.distribuidor}}</h3>
+                {% endif %}
+                {% if juego.desarrollador %}
+                    <h3><strong>Desarrollador:</strong> {{juego.desarrollador}}</h3>
+                {% endif %}
+                {% if juego.categoria %}
+                    <h3><strong>Categoría:</strong> {{juego.categoria}}</h3>
+                {% endif %}
+                {% if juego.año %}
+                    <h3><strong>Año:</strong> {{juego.año}}</h3>
+                {% endif %}
+            </div>
+        </section>
+    </div>
+</section>
+{% endblock %}
